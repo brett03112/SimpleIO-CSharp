@@ -4,72 +4,72 @@ This document describes the test cases and error handling for each method in the
 
 ## NextToken
 
-### Purpose
+***Purpose of NextToken**
 
 Reads a token (word) from the console input, handling whitespace appropriately.
 
-### Test Cases
+***Test Cases**
 
 - Reading simple tokens
 - Handling leading whitespace
 - Handling trailing whitespace
 - Empty input
 
-### Error Handling
+***Error Handling**
 
 - End of stream (-1) returns empty string
 - Whitespace-only input returns empty string
 
 ## NextInt
 
-### Purpose
+***Purpose**
 
 Reads an integer from the console input.
 
-### Test Cases
+***Test Cases**
 
 - Reading positive integers
 - Reading negative integers
 - Handling whitespace
 
-### Error Handling
+***Error Handling**
 
 - Throws FormatException for non-numeric input
 - Throws OverflowException for values outside Int32 range
 
 ## NextDouble
 
-### Purpose
+***Purpose**
 
 Reads a double-precision floating-point number from the console.
 
-### Test Cases
+***Test Cases**
 
 - Reading numbers with dot decimal separator
 - Reading numbers with comma decimal separator
 - Reading whole numbers
 - Reading negative numbers
 
-### Error Handling
+***Error Handling**
 
 - Throws FormatException for non-numeric input
 - Accepts both '.' and ',' as decimal separators when acceptAnyDecimalSeparator is true
 - Uses system culture decimal separator when acceptAnyDecimalSeparator is false
 
-## NextDecimal
+***Test Cases**
 
-### Purpose
+***Purpose**
 
 Reads a decimal number from the console.
 
-### Test Cases
+***Test Cases**
 
 - Reading numbers with dot decimal separator
 - Reading numbers with comma decimal separator
 - Reading whole numbers
 - Reading negative numbers
 
-### Error Handling
+***Error Handling**
 
 - Throws FormatException for non-numeric input
 - Accepts both '.' and ',' as decimal separators when acceptAnyDecimalSeparator is true
@@ -77,17 +77,17 @@ Reads a decimal number from the console.
 
 ## NextString
 
-### Purpose
+***Purpose**
 
 Reads a quoted string from the console, supporting escaped quotes.
 
-### Test Cases
+***Test Cases**
 
 - Reading simple quoted strings
 - Reading strings with escaped quotes
 - Reading strings with spaces
 
-### Error Handling
+***Error Handling**
 
 - Throws FormatException for missing opening quote
 - Throws FormatException for missing closing quote
@@ -96,17 +96,17 @@ Reads a quoted string from the console, supporting escaped quotes.
 
 ## Create1DList
 
-### Purpose
+***Purpose**
 
 Creates a one-dimensional list of numbers from space-separated input.
 
-### Test Cases
+***Test Cases**
 
 - Reading space-separated numbers
 - Reading mixed number formats (integers and decimals)
 - Empty input
 
-### Error Handling
+***Error Handling**
 
 - Returns empty list for empty input
 - Supports both '.' and ',' as decimal separators
@@ -115,18 +115,18 @@ Creates a one-dimensional list of numbers from space-separated input.
 
 ## Create2DList
 
-### Purpose
+***Purpose**
 
 Creates a two-dimensional list (matrix) of numbers, with rows separated by Enter key.
 
-### Test Cases
+***Test Cases**
 
 - Reading multiple rows of numbers
 - Reading rows of different lengths
 - Empty input
 - Single row input
 
-### Error Handling
+***Error Handling**
 
 - Returns empty list for empty input
 - Supports both '.' and ',' as decimal separators
@@ -136,18 +136,18 @@ Creates a two-dimensional list (matrix) of numbers, with rows separated by Enter
 
 ## Create3DList
 
-### Purpose
+***Purpose**
 
 Creates a three-dimensional list (array of matrices) of numbers, with matrices separated by double Enter key.
 
-### Test Cases
+***Test Cases**
 
 - Reading multiple matrices
 - Reading matrices of different sizes
 - Empty input
 - Single matrix input
 
-### Error Handling
+***Error Handling**
 
 - Returns empty list for empty input
 - Supports both '.' and ',' as decimal separators
