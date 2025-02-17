@@ -104,29 +104,25 @@ To use `SimpleIO`, simply include the `SimpleIO.cs` file in your C# project and 
 
 The following features are planned for future releases of `SimpleIO`:
 
-* x] TODO: Add more methods for reading arrays, jagged arrays, etc.
-* TODO: Add methods for reading files, writing to files, etc.
-* TODO: Add methods for reading from streams, writing to streams, etc.
-* TODO: Add methods for reading from sockets, writing to sockets, etc.
-* TODO: Add methods for reading from databases, writing to databases, etc.
-* TODO: Add methods for reading from APIs, writing to APIs, etc.
-* TODO: Add methods for reading from user input, writing to a user output file, etc.
-* TODO: Add methods for reading from a user input stream, writing to a user output stream, etc.
-* TODO: Add methods for reading from a user input socket, writing to a user output socket, etc.
-* TODO: Add methods for reading from a user input database, writing to a user output database, etc.
-* TODO: Add methods for reading from a user input API, writing to a user output API, etc.
-* TODO: Add various math functions for linear algebra, statistics, numerical integration, differentiation and optimization, etc.
-* TODO: Add various string functions for text processing, regular expressions, etc.
-* TODO: Add various date and time functions for working with dates and times, etc.
-* TODO: Add various graphics functions for drawing and rendering graphics, etc.
-* TODO: Add various audio functions for playing and recording audio, etc.
-* TODO: Add various video functions for playing and recording video, etc.
+* [ ] TODO: Add more methods for reading arrays, jagged arrays, etc.
+* [ ] TODO: Add methods for reading files, writing to files, etc.
+* [ ] TODO: Add methods for reading from streams, writing to streams, etc.
+* [ ] TODO: Add methods for reading from sockets, writing to sockets, etc.
+* [ ] TODO: Add methods for reading from databases, writing to databases, etc.
+* [ ] TODO: Add methods for reading from APIs, writing to APIs, etc.
+* [ ] TODO: Add methods for reading from user input, writing to a user output file, etc.
+* [ ] TODO: Add methods for reading from a user input stream, writing to a user output stream, etc.
+* [ ] TODO: Add methods for reading from a user input socket, writing to a user output socket, etc.
+* [ ] TODO: Add methods for reading from a user input database, writing to a user output database, etc.
+* [ ] TODO: Add methods for reading from a user input API, writing to a user output API, etc.
+* [ ] TODO: Add various math functions for linear algebra, statistics, numerical integration, differentiation and optimization, etc.
+* [ ] TODO: Add various string functions for text processing, regular expressions, etc.
+* [ ] TODO: Add various date and time functions for working with dates and times, etc.
+* [ ] TODO: Add various graphics functions for drawing and rendering graphics, etc.
+* [ ] TODO: Add various audio functions for playing and recording audio, etc.
+* [ ] TODO: Add various video functions for playing and recording video, etc.
 
 ## License
-
-[Choose a license, e.g., MIT License]
-
-[**Example MIT License Snippet (Replace with your chosen license or remove this section if not open-sourcing)**]
 
 ```text
 MIT License
