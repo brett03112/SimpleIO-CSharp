@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o1zKYQliBbM=",
+  "dgSpecHash": "pMThhLDf5iA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\nakov\\SimpleIO\\SimpleIO.Tests\\SimpleIO.Tests.csproj",
+  "projectFilePath": "C:\\Users\\brett\\Documents\\csharp\\SimpleIO\\SimpleIO\\SimpleIO.Tests\\SimpleIO.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.codecoverage\\17.13.0\\microsoft.codecoverage.17.13.0.nupkg.sha512",

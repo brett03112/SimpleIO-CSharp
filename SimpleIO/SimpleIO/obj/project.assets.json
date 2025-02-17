@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\nakov\\SimpleIO\\SimpleIO\\SimpleIO.csproj",
+      "projectUniqueName": "C:\\Users\\brett\\Documents\\csharp\\SimpleIO\\SimpleIO\\SimpleIO\\SimpleIO.csproj",
       "projectName": "SimpleIO",
-      "projectPath": "C:\\Users\\brett\\Documents\\csharp\\nakov\\SimpleIO\\SimpleIO\\SimpleIO.csproj",
+      "projectPath": "C:\\Users\\brett\\Documents\\csharp\\SimpleIO\\SimpleIO\\SimpleIO\\SimpleIO.csproj",
       "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brett\\Documents\\csharp\\nakov\\SimpleIO\\SimpleIO\\obj\\",
+      "outputPath": "C:\\Users\\brett\\Documents\\csharp\\SimpleIO\\SimpleIO\\SimpleIO\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.25057.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
