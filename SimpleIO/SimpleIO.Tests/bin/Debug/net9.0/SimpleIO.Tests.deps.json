@@ -11,7 +11,8 @@
           "Microsoft.NET.Test.Sdk": "17.13.0",
           "SimpleIO": "1.0.0",
           "coverlet.collector": "6.0.4",
-          "xunit": "2.9.3"
+          "xunit": "2.9.3",
+          "xunit.runner.visualstudio": "3.0.2"
         },
         "runtime": {
           "SimpleIO.Tests.dll": {}
@@ -339,10 +340,11 @@
           }
         }
       },
+      "xunit.runner.visualstudio/3.0.2": {},
       "SimpleIO/1.0.0": {
         "runtime": {
           "SimpleIO.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -452,6 +454,13 @@
       "sha512": "sha512-yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
+    },
+    "xunit.runner.visualstudio/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oXbusR6iPq0xlqoikjdLvzh+wQDkMv9If58myz9MEzldS4nIcp442Btgs2sWbYWV+caEluMe2pQCZ0hUZgPiow==",
+      "path": "xunit.runner.visualstudio/3.0.2",
+      "hashPath": "xunit.runner.visualstudio.3.0.2.nupkg.sha512"
     },
     "SimpleIO/1.0.0": {
       "type": "project",

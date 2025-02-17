@@ -115,18 +115,8 @@ public static class SimpleIO
     /// <returns>The double read from the console.</returns>
     public static double NextDouble(bool acceptAnyDecimalSeparator = true)
     {
-        string token = SimpleIO.NextToken();
-        if (acceptAnyDecimalSeparator)
-        {
-            token = token.Replace(',', '.');
-            double result = double.Parse(token, CultureInfo.InvariantCulture);
-            return result;
-        }
-        else
-        {
-            double result = double.Parse(token);
-            return result;
-        }
+        // Convert the decimal to double - more efficient than parsing twice
+        return (double)NextDecimal(acceptAnyDecimalSeparator);
     }
 
 
@@ -143,17 +133,9 @@ public static class SimpleIO
     public static decimal NextDecimal(bool acceptAnyDecimalSeparator = true)
     {
         string token = SimpleIO.NextToken();
-        if (acceptAnyDecimalSeparator)
-        {
-            token = token.Replace(',', '.');
-            decimal result = decimal.Parse(token, CultureInfo.InvariantCulture);
-            return result;
-        }
-        else
-        {
-            decimal result = decimal.Parse(token);
-            return result;
-        }
+        return acceptAnyDecimalSeparator
+            ? decimal.Parse(token.Replace(',', '.'), CultureInfo.InvariantCulture)
+            : decimal.Parse(token);
     }
 
     /// <summary>
