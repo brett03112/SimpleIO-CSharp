@@ -104,7 +104,7 @@ To use `SimpleIO`, simply include the `SimpleIO.cs` file in your C# project and 
 
 The following features are planned for future releases of `SimpleIO`:
 
-* TODO: Add more methods for reading arrays, jagged arrays, etc.
+* x] TODO: Add more methods for reading arrays, jagged arrays, etc.
 * TODO: Add methods for reading files, writing to files, etc.
 * TODO: Add methods for reading from streams, writing to streams, etc.
 * TODO: Add methods for reading from sockets, writing to sockets, etc.
