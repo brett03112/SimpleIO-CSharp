@@ -422,4 +422,8 @@ public static class SimpleIO
     //TODO: Add various graphics functions for drawing and rendering graphics, etc.
     //TODO: Add various audio functions for playing and recording audio, etc.
     //TODO: Add various video functions for playing and recording video, etc.
+    //TODO: Package the library for NuGet and publish it.
+    //TODO: Add documentation and examples for all methods.
+    //TODO: Implement CI/CD for the library using GitHub Actions or Azure DevOps.
+
 }

@@ -41,7 +41,7 @@ Reads an integer from the console input.
 
 ***Purpose**
 
-Reads a double-precision floating-point number from the console.
+Reads a double-precision floating-point number from the console. Implemented efficiently by leveraging NextDecimal() and performing a type conversion.
 
 ***Test Cases**
 
@@ -55,8 +55,9 @@ Reads a double-precision floating-point number from the console.
 - Throws FormatException for non-numeric input
 - Accepts both '.' and ',' as decimal separators when acceptAnyDecimalSeparator is true
 - Uses system culture decimal separator when acceptAnyDecimalSeparator is false
+- Inherits robust error handling from NextDecimal()
 
-***Test Cases**
+## NextDecimal
 
 ***Purpose**
 
@@ -167,16 +168,19 @@ Creates a three-dimensional list (array of matrices) of numbers, with matrices s
    - All numeric methods support culture-invariant parsing
    - Decimal separator handling is consistent across methods
    - Range checking is performed for appropriate types
+   - Efficient implementation by reusing parsing logic where possible
 
 3. Memory Considerations
    - Lists are created with appropriate initial capacity
    - Resources are properly disposed
    - Stream handling is efficient
+   - Optimized memory usage through method reuse
 
 4. Platform Compatibility
    - Line ending handling is platform-aware
    - Culture-specific number formatting is handled
    - Console input/output is properly managed
+   - Cross-platform decimal separator support
 
 ## Test Coverage
 
@@ -187,3 +191,13 @@ The test suite provides:
 - Coverage of edge cases and error conditions
 - Verification of error handling
 - Cross-platform compatibility testing
+
+## Future Development
+
+TODO: Package the library and publish it on the NuGet platform to make it easily accessible to other .NET developers. This will involve:
+
+1. Creating a NuGet package specification
+2. Setting up CI/CD for automated package publishing
+3. Versioning strategy implementation
+4. Package documentation and release notes
+5. NuGet feed configuration and deployment
