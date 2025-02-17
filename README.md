@@ -15,7 +15,7 @@ The `SimpleIO` class offers the following static methods:
     Reads an integer from the console input. Skips leading and trailing whitespace and parses the token as an integer.
 
 * **`NextDouble(bool acceptAnyDecimalSeparator = true)`**:
-    Reads a double-precision floating-point number from the console input. Skips leading and trailing whitespace.
+    Reads a double-precision floating-point number from the console input by leveraging NextDecimal() for efficient parsing. Skips leading and trailing whitespace.
   * `acceptAnyDecimalSeparator`:  A boolean parameter that, when set to `true` (default), allows both '.' (dot) and ',' (comma) to be recognized as decimal separators. If `false`, only the system's default decimal separator is accepted.
 
 * **`NextDecimal(bool acceptAnyDecimalSeparator = true)`**:
@@ -104,23 +104,34 @@ To use `SimpleIO`, simply include the `SimpleIO.cs` file in your C# project and 
 
 The following features are planned for future releases of `SimpleIO`:
 
-* [ ] TODO: Add more methods for reading arrays, jagged arrays, etc.
-* [ ] TODO: Add methods for reading files, writing to files, etc.
-* [ ] TODO: Add methods for reading from streams, writing to streams, etc.
-* [ ] TODO: Add methods for reading from sockets, writing to sockets, etc.
-* [ ] TODO: Add methods for reading from databases, writing to databases, etc.
-* [ ] TODO: Add methods for reading from APIs, writing to APIs, etc.
-* [ ] TODO: Add methods for reading from user input, writing to a user output file, etc.
-* [ ] TODO: Add methods for reading from a user input stream, writing to a user output stream, etc.
-* [ ] TODO: Add methods for reading from a user input socket, writing to a user output socket, etc.
-* [ ] TODO: Add methods for reading from a user input database, writing to a user output database, etc.
-* [ ] TODO: Add methods for reading from a user input API, writing to a user output API, etc.
-* [ ] TODO: Add various math functions for linear algebra, statistics, numerical integration, differentiation and optimization, etc.
-* [ ] TODO: Add various string functions for text processing, regular expressions, etc.
-* [ ] TODO: Add various date and time functions for working with dates and times, etc.
-* [ ] TODO: Add various graphics functions for drawing and rendering graphics, etc.
-* [ ] TODO: Add various audio functions for playing and recording audio, etc.
-* [ ] TODO: Add various video functions for playing and recording video, etc.
+### Input/Output Features
+
+* [ ] Add more methods for reading arrays, jagged arrays, etc.
+* [ ] Add methods for reading files, writing to files, etc.
+* [ ] Add methods for reading from streams, writing to streams, etc.
+* [ ] Add methods for reading from sockets, writing to sockets, etc.
+* [ ] Add methods for reading from databases, writing to databases, etc.
+* [ ] Add methods for reading from APIs, writing to APIs, etc.
+* [ ] Add methods for reading from user input, writing to a user output file, etc.
+* [ ] Add methods for reading from a user input stream, writing to a user output  stream, etc.
+* [ ] Add methods for reading from a user input socket, writing to a user output socket, etc.
+* [ ] Add methods for reading from a user input database, writing to a user output database, etc.
+* [ ] Add methods for reading from a user input API, writing to a user output API, etc.
+
+### Utility Functions
+
+* [ ] Add various math functions for linear algebra, statistics, numerical integration, differentiation and optimization, etc.
+* [ ] Add various string functions for text processing, regular expressions, etc.
+* [ ] Add various date and time functions for working with dates and times, etc.
+* [ ] Add various graphics functions for drawing and rendering graphics, etc.
+* [ ] Add various audio functions for playing and recording audio, etc.
+* [ ] Add various video functions for playing and recording video, etc.
+
+### Documentation and Distribution
+
+* [ ] Package the library for NuGet and publish it
+* [ ] Add comprehensive documentation and examples for all methods
+* [ ] Implement CI/CD pipeline using GitHub Actions or Azure DevOps
 
 ## License
 
