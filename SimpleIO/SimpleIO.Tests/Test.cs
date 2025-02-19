@@ -1,10 +1,6 @@
-using System;
-using System.IO;
-using System.Text;
-using Xunit;
-using SimpleIO;
+using SIO;
 
-namespace SimpleIO.Tests;
+namespace SIO.Tests;
 
 public class SimpleIOTests : IDisposable
 {

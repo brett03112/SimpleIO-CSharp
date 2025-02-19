@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace SimpleIO;
+namespace SIO;
 
 /*
 Class Overview: The SimpleIO class provides a set of static methods for reading input from the 

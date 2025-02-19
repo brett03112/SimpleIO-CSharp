@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimpleIO.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f216eaf6903699e481f731f8fcb5fbcc3ee9f7be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edc75f9520df8edcdb2ebc0fac555d3ffac5479c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimpleIO.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimpleIO.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

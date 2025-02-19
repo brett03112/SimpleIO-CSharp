@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleIO\SimpleIO.csproj"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Numerics"/>
+    <Using Include="System.Console" Static="true"/>
+    <Using Include="System.Environment" Alias="Env"/>
+  </ItemGroup>
+</Project>
